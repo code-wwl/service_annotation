@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+apply plugin: 'maven'
+//uploadArchives {
+//    repositories.mavenDeployer {
+//        repository(url: "file:///Users/wwl/Desktop/plugin")
+//        pom.groupId = "com.humble.plugin"
+//        pom.artifactId = "annotation"
+//        pom.version = "1.0.0" }
+//}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
