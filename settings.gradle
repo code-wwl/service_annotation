@@ -1,6 +1,2 @@
-include ':plugin'
-include ':service_compiler'
 include ':service_annotation'
-include ':service_router'
-include ':app'
-rootProject.name = "Humble Service Router"
+rootProject.name = "Humble Service Annotations"
